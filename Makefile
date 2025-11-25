@@ -9,7 +9,7 @@ O=linux
 LIBS= -lncurses -lm 
 
 OBJS= 						\
-			#$(O)/UI_attr.o
+			$(O)/input.o
 
 all:	$(O)/2dCar
 
